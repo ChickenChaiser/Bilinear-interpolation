@@ -1,0 +1,20 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\kamin\source\repos\BinInt\BinInt>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\bin\HostX86\x64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include" -I"C:\Vcpkg\vcpkg\installed\x64-windows\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc142.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\Users\kamin\source\repos\BinInt\BinInt\kernel.cu" 
+C:/Users/kamin/source/repos/BinInt/BinInt/kernel.cu(156): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/Users/kamin/source/repos/BinInt/BinInt/kernel.cu(159): warning : variable "timerValueCPU" was declared but never referenced
+  
+C:/Users/kamin/source/repos/BinInt/BinInt/kernel.cu(198): warning : variable "finish" was declared but never referenced
+  
+C:/Users/kamin/source/repos/BinInt/BinInt/kernel.cu(156): warning : conversion from a string literal to "char *" is deprecated
+  
+  kernel.cu
+C:/Users/kamin/source/repos/BinInt/BinInt/kernel.cu(123): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+C:/Users/kamin/source/repos/BinInt/BinInt/kernel.cu(124): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+C:/Users/kamin/source/repos/BinInt/BinInt/kernel.cu(125): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+C:/Users/kamin/source/repos/BinInt/BinInt/kernel.cu(126): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+C:/Users/kamin/source/repos/BinInt/BinInt/kernel.cu(192): warning C4996: 'cudaThreadSynchronize': объявлен deprecate
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include\cuda_runtime_api.h(957): note:  см. объявление "cudaThreadSynchronize"
+C:/Users/kamin/source/repos/BinInt/BinInt/kernel.cu(198): warning C4101: finish: неиспользованная локальная переменная
+  BinInt.vcxproj -> C:\Users\kamin\source\repos\BinInt\x64\Debug\BinInt.exe
